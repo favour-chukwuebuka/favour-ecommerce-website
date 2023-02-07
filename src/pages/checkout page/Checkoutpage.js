@@ -5,7 +5,6 @@ import "./Checkoutpage.scss";
 
 const Checkoutpage = (props) => {
     const {state:catItem}=useLocation();
-    console.log(catItem)
     const {onAdd} = props;
 
     return (
@@ -16,7 +15,8 @@ const Checkoutpage = (props) => {
         <button className="BUTTONS" onClick={() =>onAdd}>Back to home</button>
     </Link>
     <div className="all">
-        {catItem.map(catItem => <div className="all" key={catItem.id}>   <img className="checkoutimage" src={catItem.image}/>
+        {catItem.map(catItem => <div className="all2"  key={catItem.id}>   <img className="checkoutimage" src={catItem.image} alt="" />  
+                  <hr className="hr" />
    <h1 className="checkoutpagename">{catItem.name}</h1>    <p  className="checkoutpageprice">${catItem.price}</p>   </div>  )}  
    </div>
         </section>    
