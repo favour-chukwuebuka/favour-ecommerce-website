@@ -180,7 +180,7 @@
                                                     name: "Truck",
                                                     price:  1500,
                                                     image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwF5510N_Q9fwQuolelEZ2lEVwVZZ0Ih_Qyw&usqp=CAU",
-                                                    },
+                                                  },
                                                     
                                                     
                       

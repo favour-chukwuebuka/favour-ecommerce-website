@@ -33,8 +33,9 @@ import { data } from '../../components/main/data';
 
     return (
     <section>
+      <p className='FAVOURCHUKWUBUKA'></p>
         <div className='block col-2'>
-          <Main  onAdd={onAdd} products={products}></Main>
+        <Main  onAdd={onAdd} products={products}></Main>
         <Basket countCartItems={cartItems.length} onAdd={onAdd} onRemove={onRemove} cartItems={cartItems}></Basket>
         <div className='row'>
        </div>  
