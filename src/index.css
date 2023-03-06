@@ -48,6 +48,7 @@ body {
   padding: 10px;
   position: relative;
   height: 350rem;
+  
   top: -193px;
   right: -86px;
   }
@@ -67,7 +68,7 @@ body {
   color:  black;
   position: absolute;
   font-size: 40px;
-  margin: -50px 190px;
+  margin: -50px 191px;
 }
 
 img.small  {
