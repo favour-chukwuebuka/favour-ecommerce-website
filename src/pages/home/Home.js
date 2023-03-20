@@ -2,7 +2,7 @@ import React from 'react';
 import { useState } from 'react';
 import { Basket } from '../../components/main/Basket';
 import {Main} from "../../components/main/Main";
-import { data } from '../../components/main/data';
+import data from '../../components/main/data';
 
   const Home = () =>  {
   const {products} = data;

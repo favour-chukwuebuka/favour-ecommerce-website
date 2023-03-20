@@ -39,36 +39,50 @@ body {
 .col-2{
   flex: -2;
   font-size: 20px;
+  position: relative;
   color: black;
+ }
+
+ .col-9{
+  flex: -2;
+  font-size: 20px;
+  width: 430px;
+  color: #f04040;
  }
 
 .col-5{
   border: 1px solid silver;
-  width: 320px;
-  padding: 10px;
+  width: 340px;
+  padding: 10p;
   position: relative;
-  height: 350rem;
-  
-  top: -193px;
+  height: 351rem;
+  top: -203px;
   right: -86px;
   }
-
+  .col-6.text-right {
+    text-align: left;
+    position: relative;
+    left: 230px;
+    bottom: 77px;
+    color: #f04040;
+    height: 70px;
+  }
   .FAVOURCHUKWUBUKA {
     position: relative;
-    top: 3775px;
+    top: 3756px;
     margin: 0px 86px;
     border: 1px solid silver;
-    width: 320px;
+    width: 340px;
     background-color: seashell;
     padding: 14px;
     height: 130px;
   }
 
-.Products1 {
+.Product1{
   color:  black;
   position: absolute;
   font-size: 40px;
-  margin: -50px 190px;
+  margin: -40px 200px;
 }
 
 img.small  {
@@ -87,7 +101,6 @@ img.small  {
   color:  #40c0f0;
   top: 20px;
   font-weight: 400;
-
 }
 .article {
   border: 1px solid  silver;
@@ -127,15 +140,14 @@ button.add {
   width: 1.5rem;
   border: 1px solid black;
   position: static;
-  margin: 5px -4px;
+  margin: 25px -3px;
   position: absolute;
 }
 .col-1 {
   position: relative;
-  color:  grey;
-  margin: 5px;
-  height: 60px;
-  top: -25px;
+  color:   #40c0f0;
+  width: 500px;
+  height: 50px;
 }
 .items {
   position: relative;
@@ -155,7 +167,6 @@ button.badge {
   color: #ffffff;
   width: 1.5rem;
 }
-
 .checkout {
   border: 1px solid transparent;
   border-radius: 5px;
@@ -166,10 +177,11 @@ button.badge {
   color: white;
   bottom: 0;
   height: 50px;
-  margin:35px 35px;
+  bottom: 200px;
+  left: 25px;
 }
 .underlined {
-  width: 320px;
+  width: 340px;
   position: relative;
   margin: 40px -11px;
   top: -40px;
@@ -177,16 +189,12 @@ button.badge {
 .hr {
   position: relative;
   top: 30px;
-
  }
-
-
 .Cartfavour {
-  color: black;
+  color:  black;
   position: absolute;
   top: 0;
   margin: 0px 207px;
-  color: black;
   font-size: 25px;
 }
 button.badge {
@@ -199,7 +207,6 @@ button.badge {
   top: -15px;
   margin: 0px 10px;
 } 
-
 .All{
   width: 100%;
   max-width: 100%;
@@ -216,7 +223,7 @@ button.badge {
 main {
   position: static;
   position: relative;
-  top: -72px;
+  top: -80px;
   height: 50vh;
   margin: 20px 550px;
 }
@@ -250,33 +257,25 @@ main {
   position: absolute;
   margin: 20px 110px;
 }
-.check {
-  color: white;
-  font-size: 20px;
-  width: 100px;
-  margin: 20px -60px;
-}
-.col-4  {
-  width: 150px;
-  color: black;
-  height: 100px;
-}
 .col-8 {
   text-align: right;
+  position: relative;
   width: 150px;
+  height: 500px;
   margin-bottom: -40px;
-  color: black;
-  top: -50px;
+  color: #40c0f0;
+  right: 30px;
+  bottom: 10px;
 }
 
 .border {
   border: 1px solid silver;
-  width: 400px;
+  width: 420px;
   border-left: none;
   height: 120px;
   border-top: none;
   position: relative;
-  top: -78px;
+  top: -55px;
   right: 550px;
 }
 
